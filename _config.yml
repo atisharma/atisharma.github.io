@@ -1,7 +1,7 @@
 # Setup
 title:               Ati's notes
-tagline:             'Ati\'s notes'
-description:         'Ati\'s notes on various topics'
+tagline:             Ati's notes
+description:         Ati\'s notes on various topics
 url:                 https://atisharma.github.io
 baseurl:             ''
 paginate:            5
