@@ -7,7 +7,7 @@ baseurl:             ''
 paginate:            5
 permalink:           pretty
 
-markdown: maruku
+markdown: kramdown
 mathjax: true
 
 # About/contact
