@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Curriculum Vitae
 ---
 
 <p class="message">
-  Ati's notes on various topics.
+  CV will appear here.
 </p>
 
 
