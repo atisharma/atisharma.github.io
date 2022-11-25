@@ -16,8 +16,13 @@ $$ a = b/2 $$
 \( \hat{a}(\omega) &= \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R} \)
 
 \begin{equation}
-    \hat{a}(\omega) &= \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R}
+    \hat{a}(\omega) = \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R}
 \end{equation}
+
+\begin{align}
+    a &= b \\
+    c &= d
+\end{align}
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
