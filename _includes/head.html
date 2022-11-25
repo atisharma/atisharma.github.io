@@ -56,18 +56,17 @@
         baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
            (document.getElementsByTagName('base').length === 0) ?
             '' : String(document.location).replace(/#.*$/, '')),
-        formatError:               // function called when TeX syntax errors occur
-            (jax, err) => jax.formatError(err)
+        formatError: (jax, err) => jax.formatError(err)
       },
-      svg: {
-        fontCache: 'global'
-      }
+      //svg: {
+        //fontCache: 'global'
+      //}
     };
     </script>
     <script async
             type="text/javascript"
             id="MathJax-script"
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
 
 </head>
