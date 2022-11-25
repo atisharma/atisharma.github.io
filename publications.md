@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Ati's notes on various topics.
+  Ati's papers and stuff.
 </p>
 
 
