@@ -6,8 +6,7 @@ url:                 https://atisharma.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
-
-markdown: kramdown
+markdown:            kramdown
 
 # About/contact
 author:
