@@ -9,6 +9,8 @@ Test some latex.
 
 $ a = b/2 $
 
+$a = b^2$
+
 $$ a = b/2 $$
 
 \[ \mathbf{AA}^*=\mathbf{A}^*\mathbf{A}. \]
