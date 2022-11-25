@@ -5,13 +5,11 @@ title: Example content
 
 Test some latex.
 
-$a = b/2$
+\( a = b/2 \)
 
-\[
-    \mathbf{AA}^*=\mathbf{A}^*\mathbf{A}.
-\]
+\[ \mathbf{AA}^*=\mathbf{A}^*\mathbf{A}. \]
 
-$ \hat{a}(\omega) &= \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R} $
+\( \hat{a}(\omega) &= \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R} \)
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
