@@ -5,16 +5,14 @@ title: Example content
 
 Test some latex.
 
-\( a = b/2 \)
 \\( a = b/2 \\)
-\[ a = b/2 \]
+
 \\[ a = b/2 \\]
 
-$ a = b/2 $
-
-$a = b^2$
-
+Display:
 $$ a = b/2 $$
+
+Some inline maths $$ a = b/2 $$ and so on.
 
 $$ \mathbf{AA}^*=\mathbf{A}^*\mathbf{A} $$
 
