@@ -4,7 +4,7 @@ tagline:             'Ati\'s notes'
 description:         'Ati\'s notes on various topics'
 url:                 https://atisharma.github.io
 baseurl:             ''
-#paginate:            5
+paginate:            5
 permalink:           pretty
 
 # About/contact
@@ -14,8 +14,8 @@ author:
   email:             ati@agalmic.ltd
 
 # Gems
-#plugins:
-  #- jekyll-paginate
+plugins:
+  - jekyll-paginate
 
 # Custom vars
 version:             0.0.1
