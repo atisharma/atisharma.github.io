@@ -5,7 +5,8 @@ title: Example content
 
 Test some latex.
 
-\( a = b/2 \)
+    \( a = b/2 \)
+    \\( a = b/2 \\)
 
 $ a = b/2 $
 
