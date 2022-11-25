@@ -14,9 +14,9 @@ $a = b^2$
 
 $$ a = b/2 $$
 
-\[ \mathbf{AA}^*=\mathbf{A}^*\mathbf{A}. \]
+$$ \mathbf{AA}^*=\mathbf{A}^*\mathbf{A} $$
 
-$$ \hat{a}(\omega) &= \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R} $$
+$$ \hat{a}(\omega) = \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R} $$
 
 \begin{equation}
     \hat{a}(\omega) = \int_{-\infty}^{\infty} e^{-i \omega t} a(t) \ dt, \quad \omega \in \mathbb{R}
