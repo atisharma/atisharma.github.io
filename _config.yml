@@ -7,6 +7,9 @@ baseurl:             ''
 paginate:            5
 permalink:           pretty
 
+markdown: kramdown
+mathjax: true
+
 # About/contact
 author:
   name:              Ati Sharma
