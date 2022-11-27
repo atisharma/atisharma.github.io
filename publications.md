@@ -5,6 +5,7 @@ title: Publications
 
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
+<!--
 [Guerilla open access manifesto](../open_access/)
 
 1.  [Journal papers](index.shtml#journal)
@@ -16,6 +17,7 @@ title: Publications
 7.  [bibliography (bibtex format, journal papers
     only)](bibliography.bib)
 
+    --!>
 
 ## Journal papers
 
@@ -82,7 +84,7 @@ Lorenz system introduce a small, yet systematic, bias.
 ### Special issue on global flow instability and control **(editorial)**
 
 [Theoretical and Computational Fluid Dynamics (2017), Vol 31, issue 5-6](https://dx.doi.org/10.1007/s00162-017-0444-y)
-[preprint](../download/Sharma.Theofilis.Colonius-TCFD-2017.pdf){style="margin-left: 1em;"}
+[preprint](../download/Sharma.Theofilis.Colonius-TCFD-2017.pdf)
 
 AS Sharma, V Theofilis, T Colonius
 
@@ -99,14 +101,12 @@ developments in the field since the first issue is discussed. A synopsis
 of the papers in this issue is given in that context.
 </div>
 
-[
-![](https://d29qn7q9z0j1p6.cloudfront.net/sites/default/files/styles/small/public/highwire/roypta/375/2089.cover-source.jpg?itok=skH89CRH)
-]{.rightmarginnote}
-
 ### Scaling and interaction of self-similar modes in models of high-Reynolds number wall turbulence **(invited)**
 
+[cover image](https://d29qn7q9z0j1p6.cloudfront.net/sites/default/files/styles/small/public/highwire/roypta/375/2089.cover-source.jpg?itok=skH89CRH)
+
 [Philosophical Transactions of the Royal Society A (2017), Volume 375, issue 2089](https://dx.doi.org/10.1098/rsta.2016.0089)
-[preprint](../download/PTRSA-scaling.pdf){style="margin-left: 1em;"}
+[preprint](../download/PTRSA-scaling.pdf)
 
 AS Sharma, R Moarref, BJ McKeon
 
@@ -132,7 +132,7 @@ modelling and simulation are outlined.
 ### Estimation of unsteady aerodynamic forces using pointwise velocity data **(Rapids)**
 
 [Journal of Fluid Mechanics (2016), vol 804, pp. R4](https://dx.doi.org/10.1017/jfm.2016.546)
-[preprint](https://arxiv.org/abs/1606.04739){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1606.04739)
 
 F Gómez, AS Sharma, HM Blackburn
 
@@ -156,7 +156,7 @@ direct numerical simulation.
 ### Correspondence between Koopman mode decomposition, resolvent mode decomposition, and invariant solutions of the Navier-Stokes equations **(Rapid Communication)**
 
 [Physical Review Fluids (2016), 1, 032402(R)](https://dx.doi.org/10.1103/PhysRevFluids.1.032402)
-[preprint](https://arxiv.org/abs/1603.08378){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1603.08378)
 
 AS Sharma, I Mezić, BJ McKeon
 
@@ -180,7 +180,7 @@ identify structures convecting with corresponding wavespeeds.
 ### A reduced-order model of three-dimensional unsteady flow in a cavity based on the resolvent operator **(Rapids)**
 
 [Journal of Fluid Mechanics (2016), vol 798, pp. R2-1 - R2-14](https://dx.doi.org/10.1017/jfm.2016.339)
-[preprint](../download/cavity_resolvent.pdf){style="margin-left: 1em;"}
+[preprint](../download/cavity_resolvent.pdf)
 
 F Gómez, HM Blackburn, M Rudman, AS Sharma, BJ McKeon
 
@@ -199,7 +199,7 @@ time history of a single velocity probe.
 ### Streamwise-varying steady transpiration control in turbulent pipe flow
 
 [Journal of Fluid Mechanics (2016), vol. 796, pp. 588-616](https://dx.doi.org/10.1017/jfm.2016.279)
-[preprint](../download/steady_transpiration.pdf){style="margin-left: 1em;"}
+[preprint](../download/steady_transpiration.pdf)
 
 F Gómez, HM Blackburn, M Rudman, AS Sharma, BJ McKeon
 
@@ -233,7 +233,7 @@ terms.
 ### On the design of optimal compliant walls for turbulence control **(invited)**
 
 [Journal of Turbulence (2016), 10.1080/14685248.2016.1181267](https://dx.doi.org/10.1080/14685248.2016.1181267)
-[preprint](https://arxiv.org/abs/1604.05386){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1604.05386)
 
 M Luhar, AS Sharma, BJ McKeon
 
@@ -268,7 +268,7 @@ guidelines for future research on compliant walls.
 ### Passivity-based output-feedback control of turbulent channel flow
 
 [Automatica (2016), 69 348--355](https://dx.doi.org/10.1016/j.automatica.2016.03.007)
-[preprint](https://arxiv.org/abs/1602.07149){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1602.07149)
 
 PH Heins, AS Sharma, BL Jones
 
@@ -296,7 +296,7 @@ reducing the turbulent energy and skin-friction drag of the flow.
 ### Low-dimensional representations of exact coherent states of the Navier-Stokes equations **(Rapid Communication)**
 
 [Physical Review E (2016), 93, 021102(R)](https://dx.doi.org/10.1103/PhysRevE.93.021102)
-[preprint](https://arxiv.org/abs/1503.01701){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1503.01701)
 
 AS Sharma, R Moarref, BJ McKeon, JS Park, MD Graham, AP Willis
 
@@ -317,7 +317,7 @@ continuing organising importance in that regime.
 ### Modelling for robust feedback control of fluid flows
 
 [Journal of Fluid Mechanics (2015), vol. 769, pp. 687-722](https://dx.doi.org/https://dx.doi.org/10.1017/jfm.2015.84)
-[preprint](https://arxiv.org/abs/1502.02154){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1502.02154)
 
 B Jones, P Heins, E Kerrigan, JF Morrison, AS Sharma
 
@@ -354,7 +354,7 @@ numbers with a single, linear controller.
 ### A framework for studying the effect of compliant surfaces on wall turbulence
 
 [Journal of Fluid Mechanics (2015), vol. 278, pp. 415-441](https://dx.doi.org/10.1017/jfm.2015.85)
-[preprint](https://arxiv.org/abs/1411.6690){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1411.6690)
 
 M Luhar, AS Sharma, BJ McKeon
 
@@ -389,7 +389,7 @@ compliant coatings that have a net positive influence on the flow.
 ### On the origin of frequency sparsity in direct numerical simulations of turbulent pipe flow
 
 [Physics of Fluids (2014), 26, 101703](https://dx.doi.org/10.1063/1.4900768)
-[preprint](https://eprints.soton.ac.uk/370686/1/Gomez_PoF_2014.pdf){style="margin-left: 1em;"}
+[preprint](https://eprints.soton.ac.uk/370686/1/Gomez_PoF_2014.pdf)
 
 F Gómez, HM Blackburn, M Rudman, BJ McKeon, M Luhar, R Moarref and AS
 Sharma
@@ -421,7 +421,7 @@ of representing turbulent flows.
 ### On the structure and origin of pressure fluctuations in wall turbulence: predictions based on the resolvent analysis
 
 [Journal of Fluid Mechanics (2014), vol. 751, pp. 38--70](https://dx.doi.org/10.1017/jfm.2014.283)
-[preprint](https://eprints.soton.ac.uk/id/eprint/364753){style="margin-left: 1em;"}
+[preprint](https://eprints.soton.ac.uk/id/eprint/364753)
 
 M Luhar, AS Sharma, BJ McKeon
 
@@ -465,7 +465,7 @@ propagation speed.
 ### Opposition control within the resolvent analysis framework
 
 [Journal of Fluid Mechanics (2014), vol. 749, pp. 597--626](https://dx.doi.org/10.1017/jfm.2014.209)
-[preprint](https://eprints.soton.ac.uk/id/eprint/364752){style="margin-left: 1em;"}
+[preprint](https://eprints.soton.ac.uk/id/eprint/364752)
 
 M Luhar, AS Sharma, BJ McKeon
 
@@ -505,7 +505,7 @@ performance improvement.
 ### A low-order decomposition of turbulent channel flow via resolvent analysis and convex optimization
 
 [Physics of Fluids, 26, 051701 (2014)](https://dx.doi.org/10.1063/1.4876195)
-[preprint](https://arxiv.org/abs/1401.6417){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1401.6417)
 
 R Moarref, MR Jovanovic, JA Tropp, AS Sharma, BJ McKeon
 
@@ -526,7 +526,7 @@ the simulation by three orders of magnitude.
 ### Compact representation of wall-bounded turbulence using compressive sampling
 
 [Physics of Fluids (2014), 26, 015109](https://dx.doi.org/10.1063/1.4862303)
-[preprint](https://dx.doi.org/10.1063/1.4862303){style="margin-left: 1em;"}
+[preprint](https://dx.doi.org/10.1063/1.4862303)
 
 JL Bourguignon, JA Tropp, AS Sharma, BJ McKeon
 
@@ -570,7 +570,7 @@ expense compared with current techniques.
 ### Model-based scaling and prediction of the streamwise energy intensity in high-Reynolds number turbulent channels
 
 [Journal of Fluid Mechanics (2013), vol. 734, pp. 275-316](https://dx.doi.org/10.1017/jfm.2013.457)
-[preprint](https://arxiv.org/abs/1302.1594){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1302.1594)
 
 R Moarref, AS Sharma, JA Tropp, BJ McKeon
 
@@ -609,7 +609,7 @@ favorably with experimental results in the literature.
 ### On coherent structure in wall turbulence
 
 [Journal of Fluid Mechanics (2013), vol. 728, pp. 196-238](https://dx.doi.org/10.1017/jfm.2013.286)
-[preprint](https://arxiv.org/abs/1301.7580){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1301.7580)
 
 AS Sharma, BJ McKeon
 
@@ -669,7 +669,7 @@ development are outlined.
 ### Efficient grid-based Bayesian estimation of nonlinear low-dimensional systems with sparse non-Gaussian PDFs
 
 [Automatica (2012), 48, 1286-1290](https://dx.doi.org/10.1016/j.automatica.2012.02.039)
-[preprint](https://arxiv.org/abs/1301.4866){style="margin-left: 1em;"}
+[preprint](https://arxiv.org/abs/1301.4866)
 
 TR Bewley, AS Sharma
 
