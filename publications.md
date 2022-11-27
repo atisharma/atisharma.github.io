@@ -88,9 +88,7 @@ developments in the field since the first issue is discussed. A synopsis
 of the papers in this issue is given in that context.
 </div>
 
-### Scaling and interaction of self-similar modes in models of high-Reynolds number wall turbulence **(invited)**
-
-[cover image](https://d29qn7q9z0j1p6.cloudfront.net/sites/default/files/styles/small/public/highwire/roypta/375/2089.cover-source.jpg?itok=skH89CRH)
+### Scaling and interaction of self-similar modes in models of high-Reynolds number wall turbulence **(invited, cover image)**
 
 [Philosophical Transactions of the Royal Society A (2017), Volume 375, issue 2089](https://dx.doi.org/10.1098/rsta.2016.0089)
 [preprint](../download/PTRSA-scaling.pdf)
@@ -586,12 +584,7 @@ high Reynolds numbers ($${Re}\_\\tau \\approx 10\^3 - 10\^{10}$$).
 Results from this low rank model of the Navier-Stokes equations compare
 favorably with experimental results in the literature.
 </div>
-
-
-{.altmetric-embed badge-type="donut" altmetric-id="1664675"}
-
-
-### See also the *[Focus on Fluids](https://dx.doi.org/10.1017/jfm.2013.366)* article about this paper
+See also the *[Focus on Fluids](https://dx.doi.org/10.1017/jfm.2013.366)* article about this paper
 
 ### On coherent structure in wall turbulence
 
