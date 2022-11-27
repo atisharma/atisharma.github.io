@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Ati Sharma
-tagline: Curriculum Vitae
+title: Curriculum Vitae
 ---
 
 * TOC
