@@ -3,9 +3,6 @@ layout: page
 title: Curriculum Vitae
 ---
 
-* TOC
-{:toc}
-
 ## Appointments
 
 * **Agalmic Ltd**
@@ -54,21 +51,10 @@ title: Curriculum Vitae
 
 ## Programming languages
 
-* That I use daily and like
-    * Hy
-    * python
-    * SQL
-* That I like
-    * Clojure
-    * C
-* That I tolerate
-    * bash
-    * Matlab
-    * C++
-* That I have forgotten
-    * k/kdb+
-    * perl
-    * Fortran
+* *That I use daily and like:* Hy, python, SQL
+* *That I like:* Clojure, C
+* *That I tolerate:* bash, Matlab, C++
+* *That I have forgotten:* k/kdb+, perl, Fortran
 
 
 ## Research grants
