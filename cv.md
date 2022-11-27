@@ -1,3 +1,8 @@
+---
+layout: page
+title: Curriculum Vitae
+---
+
 ### Appointments
 
 * Agalmic Ltd, owner 2019 --
