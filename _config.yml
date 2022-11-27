@@ -8,6 +8,10 @@ paginate:            20
 permalink:           pretty
 markdown:            kramdown
 
+kramdown:
+    parse_block_html: true
+    toc_levels: 1..2
+
 # About/contact
 author:
   name:              Ati Sharma
