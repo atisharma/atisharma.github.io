@@ -6,7 +6,7 @@ title: Curriculum Vitae
 ### Appointments
 
 * **Agalmic Ltd**
-    - owner 2019 &#8594;
+    - owner & director, 2019 &#8594;
 *  **University of Southampton**, Aeronautical & Astronautical Engineering
     * Visitor, &#8594; 2019
     * Associate Professor, &#8594; 2019

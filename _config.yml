@@ -2,7 +2,7 @@
 title:               Notes on various topics
 tagline:             Notes on various topics
 description:         Notes on various topics
-url:                 https://atisharma.github.io
+url:                 https://atisharma.info
 baseurl:             ''
 paginate:            20
 permalink:           pretty
@@ -14,7 +14,7 @@ kramdown:
 # About/contact
 author:
   name:              Ati Sharma
-  url:               https://atisharma.github.io
+  url:               https://atisharma.info
   email:             ati@agalmic.ltd
 
 # Gems
