@@ -5,13 +5,17 @@ title: Curriculum Vitae
 
 ### Appointments
 
-* Agalmic Ltd, owner 2019 &#8594;
-* Visitor, Aeronautical & Astronautical Eng., Univ. Southampton 2019 &#8594;
-* Associate Professor, Aeronautical & Astronautical Eng., Univ. Southampton &#8594; 2019
-* Senior Lecturer, Aeronautical & Astronautical Eng., Univ. Southampton &#8594; 2014
-* Lecturer, Automatic Control and Systems Eng., Univ. Sheffield &#8594; 2013
-* Imperial College Research Fellow, Aeronautics, Imperial College London &#8594; 2011
-* Research Associate, Aeronautics & EEE (joint), Imperial College London &#8594; 2009
+* Agalmic Ltd
+    - owner 2019 &#8594;
+* Aeronautical & Astronautical Engineering, University of Southampton
+    * Visitor &#8594; 2019
+    * Associate Professor &#8594; 2019
+    * Senior Lecturer &#8594; 2014
+* Automatic Control and Systems Engineering, University of Sheffield
+    * Lecturer &#8594; 2013
+* Imperial College London
+    * Imperial College Research Fellow, Department of Aeronautics &#8594; 2011
+    * Research Associate, Department of Aeronautics & EEE (joint) &#8594; 2009
 * Options Flow Trader, JP Morgan Europe &#8594; 2004
 * Quantitative Researcher, EA Capital (UK) Ltd &#8594; 2003
 * Research Assistant, Imperial College &#8594; 2002
