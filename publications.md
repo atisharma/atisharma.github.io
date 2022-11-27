@@ -1122,7 +1122,6 @@ simulation and control of a ubiquitous class of wall flows.
 ### Imperial College, Turbulence Seminar, 2013-11-07
 
 [PDF of slides](../download/Imperial-2013-slides.pdf)
-</div>
 
 
 ## Thesis
@@ -1130,7 +1129,7 @@ simulation and control of a ubiquitous class of wall flows.
 ### Tokamak modelling and control
 
 [Thesis, Imperial College London (University of London) (2002)](https://www.opengrey.eu/item/display/10068/697691)
-[\[PDF\]](../download/ASharma_thesis.pdf)
+[PDF](../download/ASharma_thesis.pdf)
 
 AS Sharma
 
