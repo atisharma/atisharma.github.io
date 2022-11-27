@@ -6,7 +6,7 @@ title: Curriculum Vitae
 * TOC
 {:toc}
 
-### Appointments
+## Appointments
 
 * **Agalmic Ltd**
     - owner & director, 2019 &#8594;
@@ -24,14 +24,14 @@ title: Curriculum Vitae
 * **Imperial College**, Research Assistant, &#8594; 2002
 
 
-### Qualifications
+## Qualifications
 
 * Fellow of the (UK) Higher Education Academy
 * PhD, DIC, *Tokamak Modelling and Control*, Imperial College London
 * MSci Physics, (1st class), University College London
 
 
-### Metrics
+## Metrics
 
 * [Erdös number 4](http://en.wikipedia.org/wiki/Erd%C5%91s_number)
 * H-index 21
@@ -40,7 +40,7 @@ title: Curriculum Vitae
 * \>20 invited talks.
 
 
-### Teaching
+## Teaching
 
 * Advanced Control Design (2014 &#8594; 2019)
 * (Fluid) Flow Control (2014 &#8594; 2019)
@@ -52,7 +52,7 @@ title: Curriculum Vitae
 * MSc & UG projects 2010 &#8594; 2019
 
 
-### Programming languages
+## Programming languages
 
 * That I use daily and like
     * Hy
@@ -71,7 +71,7 @@ title: Curriculum Vitae
     * Fortran
 
 
-### Research grants
+## Research grants
 
 *As principal investigator:*
 
