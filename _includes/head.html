@@ -64,4 +64,19 @@
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
 
+    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+    <!-- collapse/expand text for abstract -->    
+    <script type="text/javascript">    
+    $(document).ready(function(){    
+        $('.reveal').click(function() {    
+            $(this).slideUp(100);    
+            $(this).next().slideToggle();    
+        });    
+        $('.abstract').click(function() {    
+            $(this).slideUp(100);    
+            $(this).prev().slideToggle();    
+        });    
+    });    
+    </script>
+
 </head>
