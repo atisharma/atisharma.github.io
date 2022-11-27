@@ -3,8 +3,9 @@ layout: page
 title: Publications
 ---
 
-<nav markdown="1">
-  * this unordered seed list will be replaced by toc as unordered list
+{::options parse_block_html="true" /}
+<nav>
+  * TOC
   {:toc}
 </nav>
 
