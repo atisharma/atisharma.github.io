@@ -1,10 +1,10 @@
 # Setup
 title:               Ati's notes
-tagline:             Ati's notes
-description:         Ati\'s notes on various topics
+tagline:             Notes on various topics
+description:         Notes on various topics
 url:                 https://atisharma.github.io
 baseurl:             ''
-paginate:            5
+paginate:            20
 permalink:           pretty
 markdown:            kramdown
 
