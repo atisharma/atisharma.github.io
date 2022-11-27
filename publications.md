@@ -3,6 +3,8 @@ layout: page
 title: Publications
 ---
 
+{% include toc.html %}
+
 ## Journal papers
 
 ### A basis for finding exact coherent states
@@ -16,13 +18,13 @@ MA Ahmed, AS Sharma
 One of the outstanding problems in the dynamical systems approach to
 turbulence is to find a sufficient number of invariant solutions to
 characterise the underlying dynamics of turbulence
-\\citep{Kawahara2012}. As a practical matter, the solutions can be
+(Kawahara 2012). As a practical matter, the solutions can be
 difficult to find. To improve this situation, we show how to find
 periodic orbits and equilibria in plane Couette flow by projecting
 pseudo-recurrent segments of turbulent trajectories onto the
 left-singular vectors of the Navier-Stokes equations linearised about
 the relevant mean flow (resolvent modes). The projections are
-subsequently used to initiate Newton-Krylov- hookstep searches, and new
+subsequently used to initiate Newton-Krylov-hookstep searches, and new
 (relative) periodic orbits and equilibria are discovered. We call the
 process project-then-search and validate the process by first applying
 it to previously known fixed point and periodic solutions. Along the way
