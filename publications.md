@@ -1158,6 +1158,11 @@ nonlinear models.
 
 ## Refereed conference papers
 
+-   J Houtman, S Timme, AS Sharma, Resolvent Analysis of Large Aircraft
+    Wings in Edge-of-the-Envelope Transonic Flow,
+    AIAA Science and Technology Forum and Exposition,
+    AIAA 2022-1329,
+    AIAA SciTech Forum 2022, (2022)
 -   G Claisse, AS Sharma, Feedback stabilization of a Plane Couette Flow
     Exact Coherent Structure, 17th European Turbulence Conference,
     Turin, (2019)
