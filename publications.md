@@ -3,20 +3,6 @@ layout: page
 title: Publications
 ---
 
-<!--
-[Guerilla open access manifesto](../open_access/)
-
-1.  [Journal papers](index.shtml#journal)
-2.  [Recent seminars and invited talks](index.shtml#seminars)
-3.  [Papers under review or on arXiv.org](index.shtml#review)
-4.  [Thesis](index.shtml#thesis)
-5.  [Refereed conference papers](index.shtml#conference)
-6.  [Conference abstracts](index.shtml#abstracts)
-7.  [bibliography (bibtex format, journal papers
-    only)](bibliography.bib)
-
-    --!>
-
 ## Journal papers
 
 ### A basis for finding exact coherent states
