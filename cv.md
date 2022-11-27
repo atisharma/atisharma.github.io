@@ -8,7 +8,7 @@ title: Curriculum Vitae
 * **Agalmic Ltd**
     - owner & director, 2019 &#8594;
 *  **University of Southampton**, Aeronautical & Astronautical Engineering
-    * Visitor, &#8594; 2019
+    * Visitor, 2019 &#8594; 
     * Associate Professor, &#8594; 2019
     * Senior Lecturer, &#8594; 2014
 * **University of Sheffield**, Automatic Control and Systems Engineering
