@@ -54,10 +54,10 @@ it with periodic boundary conditions in time. We show that this is not
 only justifiable when the reference trajectory is itself periodic, but
 also possible and effective for chaotic trajectories. Our error analysis
 shows that periodic shadowing has the same convergence rates as LSS when
-the time span \\(T\\) is increased: the sensitivity error first decays
-as \\(1/T\\) and then, asymptotically as \\(1/\\sqrt{T}\\). We
+the time span $$T$$ is increased: the sensitivity error first decays
+as $$1/T$$ and then, asymptotically as $$1/\\sqrt{T}$$. We
 demonstrate the approach on the Lorenz equations, and also show that, as
-\\(T\\) tends to infinity, periodic shadowing sensitivities converge to
+$$T$$ tends to infinity, periodic shadowing sensitivities converge to
 the same value obtained from long unstable periodic orbits (D Lasagna,
 SIAM J Appl Dyn Syst 17, 1, 2018) for which there is no shadowing error.
 Finally, finite-difference approximations of the sensitivity are also
@@ -191,7 +191,7 @@ F Gómez, HM Blackburn, M Rudman, AS Sharma, BJ McKeon
 <div class="abstract" style="display: none;">
 The effect of streamwise-varying steady transpiration on turbulent pipe
 flow is examined using direct numerical simulation at fixed friction
-Reynolds number \\(Re\_\\tau=314\\). The streamwise momentum equation
+Reynolds number $$Re\_\\tau=314$$. The streamwise momentum equation
 reveals three physical mechanisms caused by transpiration acting in the
 flow: modification of Reynolds shear stress, steady streaming and
 generation of non-zero mean streamwise gradients. The influence of these
@@ -319,7 +319,7 @@ finite-dimensional. With this in mind, we present a set of techniques
 that enables the disparity between such models and the underlying flow
 system to be quantified in a fashion that informs the subsequent design
 of feedback flow controllers, specifically those based on the
-\\(\\mathcal{H}\_\\infty\\) loop-shaping approach. Highlights include
+$$\\mathcal{H}\_\\infty$$ loop-shaping approach. Highlights include
 the application of a model refinement technique as a means of obtaining
 low-order models with an associated bound that quantifies the
 closed-loop degradation incurred by using such finite-dimensional
@@ -328,7 +328,7 @@ the influence of the nonlinearity of the flow can be attenuated by a
 linear feedback controller that employs high loop gain over a select
 frequency range, and offer an explanation for this in terms of Landahl's
 theory of sheared turbulence. To illustrate the application of these
-techniques, a \\(\\mathcal{H}\_\\infty\\) loop-shaping controller is
+techniques, a $$\\mathcal{H}\_\\infty$$ loop-shaping controller is
 designed and applied to the problem of reducing perturbation wall-shear
 stress in plane channel flow. DNS results demonstrate robust attenuation
 of the perturbation shear-stresses across a wide range of Reynolds
@@ -436,7 +436,7 @@ amplitude modulation effect in the pressure field, similar to that
 observed for the streamwise velocity field. However, unlike the
 streamwise velocity, for which the large scales of the flow are in phase
 with the envelope of the small-scale activity close to the wall, we
-expect there to be a \\(\\pi/2\\) phase difference between the large
+expect there to be a $$\\pi/2$$ phase difference between the large
 scale wall-pressure and the envelope of the small-scale activity.
 Finally, we generate spectral predictions based on a rank-1 model
 assuming broadband forcing across all wavenumber-frequency combinations.
@@ -579,7 +579,7 @@ with results from direct numerical simulations at low turbulent Reynolds
 numbers, further similarity appears. Representation of these weight
 functions using similarity laws enables prediction of the Reynolds
 number and wall-normal variations of the streamwise energy intensity at
-high Reynolds numbers (\\({Re}\_\\tau \\approx 10\^3 - 10\^{10}\\)).
+high Reynolds numbers ($${Re}\_\\tau \\approx 10\^3 - 10\^{10}$$).
 Results from this low rank model of the Navier-Stokes equations compare
 favorably with experimental results in the literature.
 </div>
@@ -666,23 +666,23 @@ introduces a novel method for implementing grid-based Bayesian
 estimation which largely sidesteps the severe computational expense that
 has prevented the widespread use of such methods. The method represents
 the evolution of the probability density function (PDF) in phase space,
-\\(p\_{x}(x\',t)\\), discretized on a fixed Cartesian grid over {\\it
+$$p\_{x}(x\',t)$$, discretized on a fixed Cartesian grid over {\\it
 all} of phase space, and consists of two main steps: (i) Between
-measurement times, \\(p\_{x}(x\',t)\\) is evolved via numerical
+measurement times, $$p\_{x}(x\',t)$$ is evolved via numerical
 discretization of the Kolmogorov forward equation, using a Godunov
 method with second-order corner transport upwind correction and a total
 variation diminishing flux limiter; (ii) at measurement times,
-\\(p\_{x}(x\',t)\\) is updated via Bayes\' theorem. Computational
+$$p\_{x}(x\',t)$$ is updated via Bayes\' theorem. Computational
 economy is achieved by exploiting the localised nature of
-\\(p\_{x}(x\',t)\\). An ordered list of cells with non-negligible
+$$p\_{x}(x\',t)$$. An ordered list of cells with non-negligible
 probability, as well as their immediate neighbours, is created and
 updated, and the PDF evolution is tracked {\\it only} on these active
-cells. %The grid-based discretization of \\(p\_{x}(x\',t)\\) in this
+cells. %The grid-based discretization of $$p\_{x}(x\',t)$$ in this
 approach avoids the requirement for resampling associated with
 particle-based representations of the PDF.
 </div>
 
-### Relaminarisation of \\(Re\_\\tau = 100\\) channel flow with globally stabilising linear feedback control
+### Relaminarisation of $$Re\_\\tau = 100$$ channel flow with globally stabilising linear feedback control
 
 [Physics of Fluids (2011), 23, 125105](https://dx.doi.org/10.1063/1.3662449)
 [preprint](https://arxiv.org/abs/1301.4948)
@@ -700,7 +700,7 @@ guaranteed to converge to the true value. We present a one-time off-line
 synthesis procedure, which generalises to accommodate more restrictive
 actuation and sensing arrangements, with conditions for existence for
 the controller given in this case. The control is tested in turbulent
-channel flow (\\(Re\_\\tau=100\\)) using full-domain sensing and
+channel flow ($$Re\_\\tau=100$$) using full-domain sensing and
 actuation on the wall-normal velocity. Concentrated at the point of
 maximum inflection in the mean profile, the control directly counters
 the supply of turbulence energy arising from the interaction of the
@@ -767,9 +767,9 @@ response at a given wavenumber-frequency combination reveals critical
 layer-like behaviour reminiscent of the neutrally stable solutions of
 the Orr-Sommerfeld equation in linearly unstable flow. Two distinct
 regions in the flow where the influence of viscosity becomes important
-can be identified, namely a wall layer that scales with \\(R\^{+1/2}\\)
+can be identified, namely a wall layer that scales with $$R\^{+1/2}$$
 and a critical layer, where the propagation velocity is equal to the
-local mean velocity, that scales with \\(R\^{+2/3}\\) in pipe flow. This
+local mean velocity, that scales with $$R\^{+2/3}$$ in pipe flow. This
 framework appears to be consistent with several scaling results in wall
 turbulence and reveals a mechanism by which the effects of viscosity can
 extend well beyond the immediate vicinity of the wall.
@@ -789,18 +789,18 @@ process of the flow past a circular cylinder. The methodology is based
 on the singular value decomposition of the Navier--Stokes evolution
 operator linearized about a two-dimensional steady or periodic state
 which leads to the optimal growth modes. Linearly stable and unstable
-steady flow at \\(Re = 45\\) and \\(50\\) is considered first, where the
+steady flow at $$Re = 45$$ and $$50$$ is considered first, where the
 analysis demonstrates that strong two-dimensional transient growth is
-observed with energy amplifications of order of 103 at \\(U\_\\infty
-\\tau//D \\simeq 30\\). Transient growth at \\(Re = 50\\) promotes the
+observed with energy amplifications of order of 103 at $$U\_\\infty
+\\tau//D \\simeq 30$$. Transient growth at $$Re = 50$$ promotes the
 linear instability which ultimately saturates into the well known
 von-Kármán street. Subsequently we consider the transient growth upon
 the time-periodic base state corresponding to the von-Kármán street at
-\\(Re = 200\\) and \\(300\\). Depending upon the spanwise wavenumber the
+$$Re = 200$$ and $$300$$. Depending upon the spanwise wavenumber the
 flow at these Reynolds numbers are linearly unstable due to the
 so-called mode A and B instabilities. Once again energy amplifications
-of order of 103 are observed over a time interval of \\(\\tau/T = 2\\),
-where \\(T\\) is the time period of the base flow shedding. In all cases
+of order of 103 are observed over a time interval of $$\\tau/T = 2$$,
+where $$T$$ is the time period of the base flow shedding. In all cases
 the maximum energy of the optimal initial conditions are located within
 a diameter of the cylinder in contrast to the spatial distribution of
 the unstable eigenmodes which extend far into the downstream wake. It is
@@ -825,7 +825,7 @@ AS Sharma
 <div class="abstract" style="display: none;">
 A method for finding reduced-order approximations of turbulent flow
 models is presented. The method preserves bounds on the production of
-turbulent energy in the sense of the \\(\\curly{L}\_2\\) norm of
+turbulent energy in the sense of the $$\\curly{L}\_2$$ norm of
 perturbations from a notional laminar profile. This is achieved by
 decomposing the Navier-Stokes system into a feedback arrangement between
 the linearised system and the remaining, normally neglected, nonlinear
@@ -1033,8 +1033,8 @@ compressible direct numerical simulations is presented. Also, a new
 formulation of the adjoint characteristic boundary conditions is
 introduced, which enhances the stability of the adjoint simulations. The
 flow configuration chosen as a case study consists of a two dimensional
-open cavity flow with aspect ratio \\(L/H=3\\) and Reynolds number
-\\(Re=5000\\). This flow configuration is of particular interest, as the
+open cavity flow with aspect ratio $$L/H=3$$ and Reynolds number
+$$Re=5000$$. This flow configuration is of particular interest, as the
 turbulent and chaotic nature of separated flows pushes the adjoint
 approach to its limit. The target of the flow actuation, defined as
 cost, is the reduction of the pressure fluctuations at the sensor
@@ -1042,8 +1042,8 @@ location. To exploit the advantages of the adjoint method, a large
 number of control parameters is used. The control consists of an
 actuating sub-domain where a two-dimensional body force is applied at
 every point within the sub-volume. This results in a total of
-\\(2.256⋅10\^6\\) control parameters. The final actuation achieved a
-successful reduction of the cost of \\(79.6\\)%, by altering the
+$$2.256⋅10\^6$$ control parameters. The final actuation achieved a
+successful reduction of the cost of $$79.6$$%, by altering the
 directivity of the sound radiated by the trailing edge of the cavity and
 breaking up the large shear layer instabilities into smaller structures.
 </div>
