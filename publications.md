@@ -3,7 +3,10 @@ layout: page
 title: Publications
 ---
 
-{% include toc.html %}
+<nav>
+  * this unordered seed list will be replaced by toc as unordered list
+  {:toc}
+</nav>
 
 ## Journal papers
 
