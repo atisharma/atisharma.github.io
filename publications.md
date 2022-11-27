@@ -3,11 +3,8 @@ layout: page
 title: Publications
 ---
 
-{::options parse_block_html="true" /}
-<nav>
-  * TOC
-  {:toc}
-</nav>
+* TOC
+{:toc}
 
 ## Journal papers
 
