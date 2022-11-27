@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: Ati Sharma
+tagline: Curriculum Vitae
 ---
 
 ### Appointments
@@ -51,10 +52,21 @@ title: Curriculum Vitae
 
 ### Programming languages
 
-* That I use daily and like: Hy, python, SQL
-* That I like: Clojure, C
-* That I tolerate: bash, Matlab, C++
-* That I have forgotten:, k/kdb+, perl
+* That I use daily and like
+    * Hy
+    * python
+    * SQL
+* That I like
+    * Clojure
+    * C
+* That I tolerate
+    * bash
+    * Matlab
+    * C++
+* That I have forgotten
+    * k/kdb+
+    * perl
+    * Fortran
 
 
 ### Research grants
