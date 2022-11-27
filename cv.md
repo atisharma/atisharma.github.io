@@ -4,6 +4,9 @@ title: Ati Sharma
 tagline: Curriculum Vitae
 ---
 
+* TOC
+{:toc}
+
 ### Appointments
 
 * **Agalmic Ltd**
