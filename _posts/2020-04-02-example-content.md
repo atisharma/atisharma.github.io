@@ -3,7 +3,7 @@ layout: post
 title: Example content
 ---
 
-Test some latex.
+Test some latex and if it reloads.
 
 \\( a = b/2 \\)
 

@@ -4,7 +4,7 @@ tagline:             Notes on various topics
 description:         Notes on various topics
 url:                 https://atisharma.info
 baseurl:             ''
-paginate:            20
+#paginate:            20
 permalink:           pretty
 markdown:            kramdown
 
@@ -18,8 +18,8 @@ author:
   email:             ati@agalmic.ltd
 
 # Gems
-plugins:
-  - jekyll-paginate
+#plugins:
+#- jekyll-paginate
 
 # Custom vars
 version:             0.0.1
