@@ -5,7 +5,7 @@ description:         Notes on various topics
 url:                 https://atisharma.info
 baseurl:             ''
 #paginate:            20
-permalink:           pretty
+permalink:           /:categories/:title/
 markdown:            kramdown
 highlighter:         rouge
 

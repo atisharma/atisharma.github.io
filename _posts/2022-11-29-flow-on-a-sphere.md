@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Discretisation of flow on a sphere
+categories: fluids
 ---
 
 These are some quick notes on the discretisation of flow on a sphere presented in [LN-JFM-2022], written with a view to coding it up at some point.

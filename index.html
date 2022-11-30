@@ -3,6 +3,7 @@ layout: default
 title: Index
 ---
 
+<!--
 <div class="posts">
   {% for post in site.posts %}
   <div class="post">
@@ -11,10 +12,28 @@ title: Index
         {{ post.title }}
       </a>
     </h3>
-    <!--
         <span class="post-date">{{ post.date | date_to_string }}</span>
-    !-->
   </div>
   {% endfor %}
 </div>
+!-->
 
+<div id="posts">
+    {% for category in site.categories %}
+    <div class="related-posts">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div id="#{{ category_name | slugize }}"> </div>
+        <h2 class="category-head">{{ category_name }}</h2>
+        <a name="{{ category_name | slugize }}"></a>
+        <ul class="related-posts">
+            <li>
+                {% for post in site.categories[category_name] %}
+                    <h3>
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+                    </h3>
+                {% endfor %}
+            </li>
+        </ul>
+    </div>
+    {% endfor %}
+</div>

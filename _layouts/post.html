@@ -8,20 +8,40 @@ layout: default
   {{ content }}
 </div>
 
-{% if site.related_posts.size >= 1 %}
+<!-- https://blog.webjeda.com/jekyll-related-posts/ --!>
 <div class="related">
-  <h2>Related posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:5 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
+    <h2>Related</h2>
+    <ul class="related-posts">
+    {% assign maxRelated = 10 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+    {% for post in site.posts %}
+        {% assign sameTagCount = 0 %}
+        {% assign commonTags = '' %}
+        {% for category in post.categories %}
+            {% if post.url != page.url %}
+                {% if page.categories contains category %}
+                    {% assign sameTagCount = sameTagCount | plus: 1 %}
+                    {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+                    {% assign commonTags = commonTags | append: tagmarkup %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        {% if sameTagCount >= minCommonTags %}
+            <li>
+                <h3>
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        {{ post.title }}
+                        <small>({{ commonTags | join : ','}})</small>
+                    </a>
+                </h3>
+            </li>
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+            {% endif %}
+        {% endif %}
     {% endfor %}
-  </ul>
+    </ul>
 </div>
-{% endif %}
+
