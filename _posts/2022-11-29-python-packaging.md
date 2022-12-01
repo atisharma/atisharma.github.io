@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to deploy a python / hy package
-categories: [devops, python, hy]
+categories: [sysadmin, python, hy]
 ---
 
 You can pip install from the local git repo by putting the following in requirements.txt:

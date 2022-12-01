@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python environments and direnv
-categories: [devops, python, hy]
+categories: [sysadmin, python, hy]
 ---
 
 I am using a bash script I called mkvenv to manage python virtual environments (venvs).

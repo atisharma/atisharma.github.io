@@ -4,7 +4,6 @@ tagline:             Notes on various topics
 description:         Notes on various topics
 url:                 https://atisharma.info
 baseurl:             ''
-#paginate:            20
 permalink:           /:categories/:title/
 markdown:            kramdown
 highlighter:         rouge
@@ -20,7 +19,6 @@ author:
 
 # Gems
 #plugins:
-#- jekyll-paginate
 
 # Custom vars
 version:             0.0.1

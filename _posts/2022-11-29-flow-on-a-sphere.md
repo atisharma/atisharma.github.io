@@ -112,7 +112,7 @@ Then
 ### Navier-Stokes on a sphere
 
 \\[
-    \partial_t \mathbf{u} = - \mathbf{u}\cdot\nabla\mathbf{u} - \nabla(p/\rho) - (2\Omega \cdot \mathbf{e}_r) \star \mathbf{u} + \nu \left( \Delta \mathbf{u} + \frac{\mathbf{u}}{a^2} \right),
+    \partial_t \mathbf{u} = - \mathbf{u}\cdot\nabla\mathbf{u} - \nabla\left(\frac{p}{\rho}\right) - (2\Omega \cdot \mathbf{e}_r) \star \mathbf{u} + \nu \left( \Delta \mathbf{u} + \frac{\mathbf{u}}{a^2} \right),
 \\]
 
 \\[
