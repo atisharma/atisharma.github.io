@@ -37,7 +37,7 @@ $$
     q(s) = R(s) f(s), \quad R(s) := \left( s I - L \right)^{-1}.
 $$
 
-We want the left and right singular vectors of the resolvent operator, so we do the [Schmidt decomposition](https://en.wikipedia.org/wiki/Schmidt_decomposition) of the resolvent operator,
+We want the left and right singular vectors of the resolvent operator, so we do the [Schmidt decomposition](/tutorial/linear-algebra/svd/) of the resolvent operator,
 
 $$
     Rx = \sum_{n=1}^\infty \sigma_n \left< x, \phi_n \right>_F \psi_n
