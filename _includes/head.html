@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/public/css/lanyon.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/public/css/maths.css' | absolute_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,6 +53,8 @@
         tagSide: 'right',          // side for \tag macros
         tagIndent: '0.8em',        // amount to indent tags
         useLabelIds: true,         // use label name rather than tag for ids
+        equationNumbers: {  autoNumber: "AMS"  },
+        extensions: ["AMSmath.js"],
         maxMacros: 1000,           // maximum number of macro substitutions per expression
         maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
         baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)

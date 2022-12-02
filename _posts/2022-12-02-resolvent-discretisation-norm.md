@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Discretising the continuous resolvent problem whilst approximating the right norm
-categories: [fluids, resolvent]
+title: Discretising the continuous resolvent problem whilst approximating in the right norm
+categories: [fluids, resolvent, tutorial]
 ---
 
 I sometimes get emails asking how to form the weighing matrices during the discretisation of the resolvent problem, such as this nicely put one.
