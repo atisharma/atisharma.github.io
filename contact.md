@@ -3,6 +3,8 @@ layout: page
 title: Contact
 ---
 
+Please contact me with mistakes, questions, comments etc.
+
 ati &#064; agalmic.ltd
 
 [google scholar](https://scholar.google.com/citations?user=asnf2k8AAAAJ)
