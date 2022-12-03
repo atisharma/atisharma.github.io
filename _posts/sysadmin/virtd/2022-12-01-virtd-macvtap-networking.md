@@ -26,6 +26,6 @@ virsh edit vm-name      # to remove other nw interface
 {% endhighlight %}
 
 ### References
-[scottlowe](https://blog.scottlowe.org/2016/02/09/using-kvm-libvirt-macvtap-interfaces/)
-[nodinrogers](https://www.nodinrogers.com/post/2022-01-06-enabling-kvm-host-to-vm-communcation/)
-[kernelnewbies](https://virt.kernelnewbies.org/MacVTap)
+* [scottlowe](https://blog.scottlowe.org/2016/02/09/using-kvm-libvirt-macvtap-interfaces/)
+* [nodinrogers](https://www.nodinrogers.com/post/2022-01-06-enabling-kvm-host-to-vm-communcation/)
+* [kernelnewbies](https://virt.kernelnewbies.org/MacVTap)
