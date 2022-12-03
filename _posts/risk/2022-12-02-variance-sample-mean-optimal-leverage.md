@@ -18,7 +18,7 @@ Using the variance of the sample mean, $$\mu$$ is drawn from a normal distributi
 The error is then
 
 $$
-    \mu - m \sim \mathcal{N}(0, \sigma^2 + \sigma_\mu^2) = \mathcal{N}(0, (1/n + 1) \sigma^2) .
+    \mu - m \sim \mathcal{N}\left(0, \sigma^2 + \sigma_\mu^2\right) = \mathcal{N}\left(0, \left( \frac{1}{n} + 1 \right) \sigma^2 \right) .
 $$
 
 The Kelly leverage $$l$$ is then $$ l \leq \frac{\mu}{(1/n + 1) \sigma^2}$$.
@@ -32,3 +32,4 @@ The Kelly leverage $$l$$ is then $$ l \leq \frac{\mu}{(1/n + 1) \sigma^2}$$.
 
 Of these, the first matters by far the most.
 In practice the estimation of $$\mu$$ is both more important and more uncertain than that of $$\sigma$$.
+In addition, non-normal distributions require a larger number of samples to characterise.

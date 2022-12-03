@@ -29,7 +29,7 @@ $$
 
 For the case of Bernie Madoff, the [recovery rate](https://en.wikipedia.org/wiki/Recovery_of_funds_from_the_Madoff_investment_scandal) was, amazingly, about $12 billion of $65 billion, so $$d \simeq 0.18$$, and the "return" was about $$r=0.15$$ annually.
 
-The probability of default over time, $$p_d(t)$$ is very difficult to know (we only have one historical path per scheme) but, being a massive fraudulent literal Ponzi scheme, approached 1 by the end. We know that such schemes can persist for some time --- Madoff's for nearly 50 years --- so $$p_d(t)$$ is surely quite low at the beginning.
+The probability of default over time, $$p_d(t)$$ is very difficult to know (we only have one historical path per scheme) but, being a literal Ponzi scheme, approached 1 by the end. We know that such schemes can persist for some time --- Madoff's for nearly 50 years --- so $$p_d(t)$$ is surely quite low at the beginning.
 
 The Kelly bet looks like this:
 

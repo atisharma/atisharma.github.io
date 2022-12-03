@@ -11,7 +11,7 @@ categories: risk
 3. Distributions are known
 4. The portfolio is continuously rebalanced
 
-Let a continuously rebalanced portfolio be described by $$ \left\{ w, \mu, \Sigma \right\} $$, which are the vectors of weights and of logreturns, and the covariance matrix.
+Let a continuously rebalanced portfolio be described by $$ \left\{ w, \mu, \Sigma \right\} $$, which are the vectors of weights and of excess logreturns, and the covariance matrix.
 
 The portfolio covariance is then $$\bar{\sigma}^2 = w' \Sigma w $$ and the expected portfolio logreturn is $$ \bar{\mu} = w'\mu$$.
 
@@ -47,7 +47,7 @@ $$
 
 The covariance matrix can be written as the product of the (diagonal) matrix of standard deviations (volatilities) $$S$$, the correlation matrix $$R$$, and $$S$$, $$\Sigma = SRS$$.
 
-Defining the vector of Sharpe ratios [^1] $$\varsigma$$ element-wise, $$\varsigma_i = \mu_i / \sigma_i $$, we can write this as
+Defining the vector of Sharpe ratios $$\varsigma$$ element-wise, $$\varsigma_i = \mu_i / \sigma_i $$, we can write this as
 
 $$
     p_{opt}(t) = p_0 e^{ \frac{1}{2} (\varsigma' R^{-1} \varsigma) t}.
@@ -60,7 +60,7 @@ We also see that the correlation matrix is inverted. Highly correlated instrumen
 
 ## Risks and reality
 
-As is well know, markets can gap and tails are fat. Large positions in quiescent instruments can blow up unexpectedly.
+As is well known, prices can gap and tails are fat. Large positions in quiescent instruments can blow up unexpectedly. In reality,
 
 1. Distributions are not stable
 2. Distributions are not normal
@@ -73,9 +73,8 @@ From the above, the source of large positions is twofold:
 
 So, in a sense, higher-volatility instruments are safer than lower-volatility ones, if you size accordingly.
 
-Highly leveraged spread trades in correlated instruments may not be. The poster child for the latter is of course [LTCM], who put spread trades on between highly correlated, low-volatility bonds. They really should have known better.
+Highly leveraged spread trades in correlated instruments may not be. The poster child for the latter is of course [LTCM], who put spread trades on between highly correlated, low-volatility bonds and interest rate swaps.
 
 
-[^1]: I've ignored the risk-free rate, if there is even such a thing.
 [LTCM]: https://en.wikipedia.org/wiki/Long-Term_Capital_Management
 
