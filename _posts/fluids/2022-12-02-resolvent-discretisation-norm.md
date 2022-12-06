@@ -96,9 +96,7 @@ $$
 $$
 
 where we have defined 
-$$
-    \mathbf{R}_W(s) := \mathbf{W}_q \mathbf{R}(s) \mathbf{W}_f^{-1} 
-$$
+$$ \mathbf{R}_W(s) := \mathbf{W}_q \mathbf{R}(s) \mathbf{W}_f^{-1}$$ and $$ \tilde{\mathbf{f}}(s) := \mathbf{W}_f \mathbf{f}(s). $$
 
 The weighting in $$\mathbf{R}_W(s)$$ induces a singular value decomposition in which the singular vectors are orthogonal with the desired inner product, and optimal in the right "energy".
 To see this, recall the leading singular value is a solution to an optimisation problem, and that its discretisation looks like
@@ -113,4 +111,4 @@ $$
     \|a\|_Q^2 \equiv \left< a, a \right>_Q, \quad \| \mathbf{a} \|^2 \equiv \mathbf{a}^* \mathbf{a}.
 $$
 
-The "natural" modes (with point values corresponding to the discretisation, but optimal under the correct inner product) can be recovered via the similarity transformation $$\mathbf{W}_q \mathbf{q}(s) = \tilde{\mathbf{q}}(s)$$, $$\mathbf{W}_f \mathbf{f}(s) = \tilde{\mathbf{f}}(s)$$ and so on.
+The "natural" modes (with point values corresponding to the discretisation, but optimal under the correct inner product) can be recovered via the similarity transformations $$\mathbf{W}_q \mathbf{q}(s) = \tilde{\mathbf{q}}(s)$$ and $$\mathbf{W}_f \mathbf{f}(s) = \tilde{\mathbf{f}}(s)$$.
