@@ -31,6 +31,8 @@ $$
 where $$\mu_Q$$ is some weight function that you choose,
 and do similarly for $$F$$. The "energy" of the state at a particular $$s$$ is then its $$\mathcal{L}^2$$ norm, $$\left<q(s), q(s)\right>_Q$$.
 
+The measure is chosen with a link back to the physics that you wish to represent. You may want it, for instance, to lead to a norm that represents a physical energy.
+
 The resolvent of operator $$L$$ is the operator $$R(s)$$ relating $$f(s)$$ and $$q(s)$$,
 
 $$
@@ -78,16 +80,24 @@ so doesn't take into account any weighting special to our discretisation ($$\mat
 This would give singular vectors that are orthogonal under the wrong inner product. Recalling the meaning of the singular values, it would also mean that the decomposition would be optimal under the wrong inner product (i.e. wrong).
 
 Instead, with the appropriate $$\mathbf{Q}$$, we can form a realisation in which the "natural" inner product is the correct one. The [Cholesky decomposition](https://en.wikipedia.org/wiki/Cholesky_decomposition) of $$\mathbf{Q}$$ is
-$$ \mathbf{Q} = \mathbf{W}_Q^* \mathbf{W}_Q $$. Using this (and similarly $$\mathbf{W}_f$$), we have
+$$ \mathbf{Q} = \mathbf{W}_q^* \mathbf{W}_q $$. Using this (and similarly $$\mathbf{W}_f$$), we have
 
 $$
-    \left<a, a\right>_Q \simeq \mathbf{a}^* \mathbf{Q} \mathbf{a} = \mathbf{a}^* \mathbf{W}_Q^* \mathbf{W}_Q \mathbf{a}
+    \left<a, a\right>_Q \simeq \mathbf{a}^* \mathbf{Q} \mathbf{a} = \mathbf{a}^* \mathbf{W}_q^* \mathbf{W}_q \mathbf{a}
 $$
 
 and we can rewrite the discrete resolvent as 
 
 $$
-    \mathbf{W}_q \mathbf{q}(s) = \left[ \mathbf{W}_q \mathbf{R}(s) \mathbf{W}_f^{-1} \right] \mathbf{W}_f \mathbf{f}(s) = \tilde{\mathbf{q}}(s) \mathbf{R}_W(s) \tilde{\mathbf{f}}(s).
+    \begin{align}
+        \mathbf{W}_q \mathbf{q}(s) &= \left[ \mathbf{W}_q \mathbf{R}(s) \mathbf{W}_f^{-1} \right] \mathbf{W}_f \mathbf{f}(s) \\
+        &= \mathbf{R}_W(s) \tilde{\mathbf{f}}(s),
+    \end{align}
+$$
+
+where we have defined 
+$$
+    \mathbf{R}_W(s) := \left[ \mathbf{W}_q \mathbf{R}(s) \mathbf{W}_f^{-1} \right] \mathbf{W}_f .
 $$
 
 The weighting in $$\mathbf{R}_W(s)$$ induces a singular value decomposition in which the singular vectors are orthogonal with the desired inner product, and optimal in the right "energy".
@@ -103,4 +113,4 @@ $$
     \|a\|_Q^2 \equiv \left< a, a \right>_Q, \quad \| \mathbf{a} \|^2 = \mathbf{a}^* \mathbf{a}.
 $$
 
-The "natural" modes (with point values corresponding to the discretisation, but optimal under the correct inner product) can be recovered via the similarity transformation $$\mathbf{W}_Q \mathbf{q}(s) = \tilde{\mathbf{q}}(s)$$ and so on.
+The "natural" modes (with point values corresponding to the discretisation, but optimal under the correct inner product) can be recovered via the similarity transformation $$\mathbf{W}_q \mathbf{q}(s) = \tilde{\mathbf{q}}(s)$$, $$\mathbf{W}_f \mathbf{f}(s) = \tilde{\mathbf{f}}(s)$$ and so on.
