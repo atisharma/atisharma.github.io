@@ -3,6 +3,9 @@ layout: page
 title: Curriculum Vitae
 ---
 
+* TOC
+{:toc}
+
 ## Appointments
 
 * **Agalmic Ltd**
@@ -75,3 +78,7 @@ title: Curriculum Vitae
 *As named researcher:*
 
 * A Systems-Theory Approach to Flow Control, EPSRC EP/E017304/1 (2006): GBP 273,132
+
+
+## [Publications]({% link publications.md %})
+
