@@ -11,7 +11,7 @@ title: Curriculum Vitae
 * **Agalmic Ltd**
     - Owner & Director, 2019 &#8594;
 *  **University of Southampton**, Aeronautical & Astronautical Engineering
-    * Visitor, 2019 &#8594; 
+    * Visitor, 2019 &#8594;
     * Associate Professor, &#8594; 2019
     * Senior Lecturer, &#8594; 2014
 * **University of Sheffield**, Automatic Control and Systems Engineering
@@ -34,7 +34,7 @@ title: Curriculum Vitae
 ## Metrics
 
 * [Erdös number 4](http://en.wikipedia.org/wiki/Erd%C5%91s_number)
-* H-index 21
+* H-index 23
 * graduated 5 PhD students
 * 13 PhD examinations
 * \>20 invited talks.
@@ -57,7 +57,7 @@ title: Curriculum Vitae
 * *That I use daily and like:* Hy, python, SQL
 * *That I like:* Clojure, C
 * *That I tolerate:* bash, Matlab, C++
-* *That I have forgotten:* k/kdb+, perl, Fortran
+* *That I have used and forgotten:* k/kdb+, perl, Fortran
 
 
 ## Research grants

@@ -6,7 +6,54 @@ title: Publications
 * TOC
 {:toc}
 
-## Journal papers
+## Journal papers / book chapters
+
+### Resolvent Analysis for Turbulent Flows (Chapter in Data-driven Analysis and Modeling of Turbulent Flows)
+
+AS Sharma, BJ McKeon; Editor: K Duraisamy
+
+[ISBN 9780323950435, 9780323950442, Chapter 3](https://shop.elsevier.com/books/data-driven-analysis-and-modeling-of-turbulent-flows/duraisamy/978-0-323-95043-5)
+
+<div class="reveal">book abstract...</div>
+<div class="abstract" style="display: none;">
+Data-driven Analysis and Modeling of Turbulent Flows explains methods for the
+analysis of large fields of data, and uncovering models and model improvements
+from numerical or experimental data on turbulence.
+
+Turbulence simulations generate large data sets, and the extraction of useful
+information from these data fields is an important and challenging task.
+Statistical learning and machine learning have provided many ways of helping,
+and this book explains how to use such methods for extracting, treating, and
+optimizing data to improve predictive turbulence models. These include methods
+such as POD, SPOD and DMD, for the extraction of modes peculiar to the data, as
+well as several reduced order models.
+
+This resource is essential reading for those developing turbulence models,
+performing turbulence simulations or interpreting turbulence simulation
+results.
+</div>
+<div class="reveal">chapter abstract...</div>
+<div class="abstract" style="display: none;">
+This chapter introduces the reader to resolvent analysis as it is currently
+used in fluid mechanics, especially in turbulent flows, and serves as a base
+from which to explore the literature on the topic. Unlike the data-driven
+methods also described in this volume, this equation-driven technique is
+designed to work without recourse to detailed simulation or experimental data.
+At its simplest, resolvent analysis employs only knowledge of the mean fields,
+perhaps obtained from Reynolds-averaged Navier-Stokes equation (RANS)
+simulations or under-resolved experimental observations, and the equations
+themselves. It provides a systematic and well-founded way to approximate key
+features of turbulent flows, obtained by analyzing the linear transfer function
+between input forcing provided by the nonlinearity in the Navier-Stokes
+equations and the output response, to obtain basis sets for each, ranked by the
+associated gain. The basis weights can be obtained or approximated using data
+or information about the nonlinearity. Approximations obtained in this way
+successively approach the original equations as the detail of the approximation
+is increased. Its application to turbulent flows has informed our understanding
+of flow structures and turbulent energy spectra in canonical and
+industrially-relevant flows.
+</div>
+
 
 ### A basis for finding exact coherent states
 
@@ -920,6 +967,43 @@ model of the plasma equilibrium response.
 
 
 ## Papers under review or on arXiv.org
+
+### Resolvent-Based Optimisation for Approximating the Statistics of Chaotic Dynamics
+
+T Burton, S Symon, AS Sharma, D Lasagna
+
+[arxiv.org](https://arxiv.org/abs/2408.13120)
+
+<div class="reveal">abstract...</div>
+<div class="abstract" style="display: none;">
+We propose a novel framework for approximating the statistical properties of
+turbulent flows by combining variational methods for the search of unstable
+periodic orbits with resolvent analysis for dimensionality reduction.
+Traditional approaches relying on identifying all short, fundamental Unstable
+Periodic Orbits to compute ergodic averages via cycle expansion are
+computationally prohibitive for high-dimensional fluid systems. Our framework
+stems from the observation in Lasagna, Phys. Rev. E (2020), that a single
+unstable periodic orbit with a period sufficiently long to span a large
+fraction of the attractor captures the statistical properties of chaotic
+trajectories. Given the difficulty of identifying unstable periodic orbits for
+high-dimensional fluid systems, approximate trajectories residing in a
+low-dimensional subspace are instead constructed using resolvent modes, which
+inherently capture the temporal periodicity of unstable periodic orbits. The
+amplitude coefficients of these modes are adjusted iteratively with
+gradient-based optimisation to minimise the violation of the projected
+governing equations, producing trajectories that approximate, rather than
+exactly solve, the system dynamics. A first attempt at utilising this framework
+on a chaotic system is made here on the Lorenz 1963 equations, where resolvent
+analysis enables an exact dimensionality reduction from three to two
+dimensions. Key observables averaged over these trajectories produced by the
+approach as well as probability distributions and spectra rapidly converge to
+values obtained from long chaotic simulations, even with a limited number of
+iterations. This indicates that exact solutions may not necessary to
+approximate the system's statistical behaviour, as the trajectories obtained
+from partial optimisation provide a sufficient "sketch" of the attractor in
+state space.
+</div>
+
 
 ### Exact coherent states for grooved Couette flows
 
