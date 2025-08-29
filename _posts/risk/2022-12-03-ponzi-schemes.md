@@ -41,7 +41,7 @@ It was rational to invest in Madoff securities, in the early days.
 ## But really, just don't
 
 In the case of Madoff, there is the obvious ethical dimension to consider, where you would be a willing participant in a fraud. So I can't recommend it.
-It's worth noting that [Ed Thorpe](https://en.wikipedia.org/wiki/Edward_O._Thorp), who understands Kelly betting probably better than anybody, chose not to "invest" in Madoff's fund in 1991, considering it likely fraudulent.
+It's worth noting that [Ed Thorp](https://en.wikipedia.org/wiki/Edward_O._Thorp), who understands Kelly betting probably better than anybody, chose not to "invest" in Madoff's fund in 1991, considering it likely fraudulent.
 In contrast, [Renaissance Technologies](https://en.wikipedia.org/wiki/Renaissance_Technologies) did invest, and reduced its exposure in 2003 and then over time.
 
 
