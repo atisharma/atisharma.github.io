@@ -55,6 +55,18 @@ industrially-relevant flows.
 </div>
 
 
+### Resolvent-Based Optimisation for Approximating the Statistics of Chaotic Dynamics
+
+T Burton, S Symon, AS Sharma, D Lasagna
+
+[Physical Review E](https://arxiv.org/abs/2408.13120)
+
+<div class="reveal">abstract...</div>
+<div class="abstract" style="display: none;">
+We propose a framework for approximating the statistical properties of turbulent flows by combining variational methods for the search of unstable periodic orbits with resolvent analysis for dimensionality reduction. Traditional approaches relying on identifying all short, fundamental unstable periodic orbits to compute ergodic averages via cycle expansion are computationally prohibitive for high-dimensional fluid systems. Our framework stems from the observation in Lasagna [D. Lasagna, Phys. Rev. E 102, 052220 (2020)](https://dx.doi.org/10.1103/PhysRevE.102.052220) that a single unstable periodic orbit with a period sufficiently long to span a large fraction of the attractor captures the statistical properties of chaotic trajectories. Given the difficulty of identifying unstable periodic orbits for high-dimensional fluid systems, approximate trajectories residing in a low-dimensional subspace are instead constructed using resolvent modes, which inherently capture the temporal periodicity of unstable periodic orbits. The amplitude coefficients of these modes are adjusted iteratively with gradient-based optimization to minimize the violation of the projected governing equations, producing trajectories that approximate, rather than exactly solve, the system dynamics. An attempt at utilizing this framework on a chaotic system is made here on the Lorenz 1963 equations, where resolvent analysis enables an exact dimensionality reduction from three to two dimensions. Key observables averaged over these trajectories produced by the approach as well as probability distributions and spectra rapidly converge to values obtained from long chaotic simulations, even with a limited number of iterations. This indicates that exact solutions may not be necessary to approximate the system's statistical behavior, as the trajectories obtained from partial optimization provide a sufficient “sketch” of the attractor in state space.
+</div>
+
+
 ### A basis for finding exact coherent states
 
 MA Ahmed, AS Sharma
@@ -967,43 +979,6 @@ model of the plasma equilibrium response.
 
 
 ## Papers under review or on arXiv.org
-
-### Resolvent-Based Optimisation for Approximating the Statistics of Chaotic Dynamics
-
-T Burton, S Symon, AS Sharma, D Lasagna
-
-[arxiv.org](https://arxiv.org/abs/2408.13120)
-
-<div class="reveal">abstract...</div>
-<div class="abstract" style="display: none;">
-We propose a novel framework for approximating the statistical properties of
-turbulent flows by combining variational methods for the search of unstable
-periodic orbits with resolvent analysis for dimensionality reduction.
-Traditional approaches relying on identifying all short, fundamental Unstable
-Periodic Orbits to compute ergodic averages via cycle expansion are
-computationally prohibitive for high-dimensional fluid systems. Our framework
-stems from the observation in Lasagna, Phys. Rev. E (2020), that a single
-unstable periodic orbit with a period sufficiently long to span a large
-fraction of the attractor captures the statistical properties of chaotic
-trajectories. Given the difficulty of identifying unstable periodic orbits for
-high-dimensional fluid systems, approximate trajectories residing in a
-low-dimensional subspace are instead constructed using resolvent modes, which
-inherently capture the temporal periodicity of unstable periodic orbits. The
-amplitude coefficients of these modes are adjusted iteratively with
-gradient-based optimisation to minimise the violation of the projected
-governing equations, producing trajectories that approximate, rather than
-exactly solve, the system dynamics. A first attempt at utilising this framework
-on a chaotic system is made here on the Lorenz 1963 equations, where resolvent
-analysis enables an exact dimensionality reduction from three to two
-dimensions. Key observables averaged over these trajectories produced by the
-approach as well as probability distributions and spectra rapidly converge to
-values obtained from long chaotic simulations, even with a limited number of
-iterations. This indicates that exact solutions may not necessary to
-approximate the system's statistical behaviour, as the trajectories obtained
-from partial optimisation provide a sufficient "sketch" of the attractor in
-state space.
-</div>
-
 
 ### Exact coherent states for grooved Couette flows
 
