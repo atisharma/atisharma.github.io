@@ -59,7 +59,7 @@ industrially-relevant flows.
 
 T Burton, S Symon, AS Sharma, D Lasagna
 
-[Physical Review E](https://arxiv.org/abs/2408.13120)
+[Physical Review E (2025), 111, 025104](https://arxiv.org/abs/2408.13120)
 
 <div class="reveal">abstract...</div>
 <div class="abstract" style="display: none;">
