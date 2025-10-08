@@ -12,7 +12,7 @@ title: Publications
 
 AS Sharma, BJ McKeon; Editor: K Duraisamy
 
-[ISBN 9780323950435, 9780323950442, Chapter 3](https://shop.elsevier.com/books/data-driven-analysis-and-modeling-of-turbulent-flows/duraisamy/978-0-323-95043-5)
+[ISBN 9780323950435, 9780323950442, Chapter 3 (2025)](http://dx.doi.org/10.1016/b978-0-32-395043-5.00009-7)
 
 <div class="reveal">book abstract...</div>
 <div class="abstract" style="display: none;">
@@ -54,7 +54,6 @@ of flow structures and turbulent energy spectra in canonical and
 industrially-relevant flows.
 </div>
 
-
 ### Resolvent-Based Optimisation for Approximating the Statistics of Chaotic Dynamics
 
 T Burton, S Symon, AS Sharma, D Lasagna
@@ -66,6 +65,21 @@ T Burton, S Symon, AS Sharma, D Lasagna
 We propose a framework for approximating the statistical properties of turbulent flows by combining variational methods for the search of unstable periodic orbits with resolvent analysis for dimensionality reduction. Traditional approaches relying on identifying all short, fundamental unstable periodic orbits to compute ergodic averages via cycle expansion are computationally prohibitive for high-dimensional fluid systems. Our framework stems from the observation in Lasagna [D. Lasagna, Phys. Rev. E 102, 052220 (2020)](https://dx.doi.org/10.1103/PhysRevE.102.052220) that a single unstable periodic orbit with a period sufficiently long to span a large fraction of the attractor captures the statistical properties of chaotic trajectories. Given the difficulty of identifying unstable periodic orbits for high-dimensional fluid systems, approximate trajectories residing in a low-dimensional subspace are instead constructed using resolvent modes, which inherently capture the temporal periodicity of unstable periodic orbits. The amplitude coefficients of these modes are adjusted iteratively with gradient-based optimization to minimize the violation of the projected governing equations, producing trajectories that approximate, rather than exactly solve, the system dynamics. An attempt at utilizing this framework on a chaotic system is made here on the Lorenz 1963 equations, where resolvent analysis enables an exact dimensionality reduction from three to two dimensions. Key observables averaged over these trajectories produced by the approach as well as probability distributions and spectra rapidly converge to values obtained from long chaotic simulations, even with a limited number of iterations. This indicates that exact solutions may not be necessary to approximate the system's statistical behavior, as the trajectories obtained from partial optimization provide a sufficient “sketch” of the attractor in state space.
 </div>
 
+### Resolvent analysis of a finite wing in transonic flow
+
+Jelle Houtman, Sebastian Timme, Ati Sharma
+
+[Flow (2023), 3, E14](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EAB142A7EA6A1711217F5A3DFC1FE6AD/S2633425923000089a_hi.pdf/resolvent-analysis-of-a-finite-wing-in-transonic-flow.pdf)
+
+<div class="reveal">abstract...</div>
+<div class="abstract" style="display: none;">
+Shock waves interacting with turbulent boundary layers on wings can result first in self-sustained flow unsteadiness and eventually in structural vibration. Due to its importance to modern wing design and aircraft certification, the transonic flow physics continue to be investigated intensively. Herein we focus the discussion on three main aspects. First, we assess a practical implementation of an iterative resolvent algorithm in the linear harmonic incarnation of an industrial computational fluid dynamics code for computing optimal forcing and response modes. This heavily relies on the efficient solution of large sparse linear systems of equations. Second, we showcase its application as a predictive tool to detect transonic buffet flow unsteadiness, well before a global stability analysis can first identify its dynamics through weakly damped eigenmodes, using the NASA common research model at wind-tunnel conditions.
+Third, we discuss its ability to uncover modal physics, not identifiable through global stability analysis, revealing
+higher-frequency wake and wingtip vortex modes while shedding some light on the elusive finite wing equivalent of
+the aerofoil bullet mode. We demonstrate that earlier computational limitations of resolvent analysis, when solving
+the truncated singular value decomposition using matrix-forming methods with direct matrix factorisation, have
+been overcome ready for industrial use.
+</div>
 
 ### A basis for finding exact coherent states
 
