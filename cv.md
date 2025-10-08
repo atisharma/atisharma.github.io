@@ -34,7 +34,7 @@ title: Curriculum Vitae
 ## Metrics
 
 * [Erdös number 4](http://en.wikipedia.org/wiki/Erd%C5%91s_number)
-* H-index 23
+* H-index 24
 * graduated 5 PhD students
 * 13 PhD examinations
 * \>20 invited talks.
