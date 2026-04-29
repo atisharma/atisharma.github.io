@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+{% include head.html %}
+<body>
 
-  {% include head.html %}
+<style>
+.reveal, .abstract {
+  cursor: pointer;
+}
+.reveal:hover, .abstract:hover {
+  text-decoration: underline;
+}
+</style>
+  <div class="container">
+    <header class="masthead">
+      <h1 class="masthead-title">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </h1>
+    </header>
+    
+    {% include nav.html %}
+    
+    <main>
+      {{ content }}
+    </main>
+    
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Content licensed under CC-BY-4.0.</p>
+    </footer>
+  </div>
 
-  <body>
-
-    {% include sidebar.html %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Index">{{ site.title }}</a>
-            <!-- small>{{ site.tagline }}</small --!>
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-        {{ content }}
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script src='{{ site.baseurl }}/public/js/script.js'></script>
-  </body>
+  <script>
+  // Simple show/hide for abstracts without jQuery
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      el.addEventListener('click', function() {
+        this.style.display = 'none';
+        var next = this.nextElementSibling;
+        if (next && next.classList.contains('abstract')) {
+          next.style.display = 'block';
+        }
+      });
+    });
+    
+    document.querySelectorAll('.abstract').forEach(function(el) {
+      el.addEventListener('click', function() {
+        this.style.display = 'none';
+        var prev = this.previousElementSibling;
+        if (prev && prev.classList.contains('reveal')) {
+          prev.style.display = 'inline';
+        }
+      });
+    });
+  });
+  </script>
+</body>
 </html>
