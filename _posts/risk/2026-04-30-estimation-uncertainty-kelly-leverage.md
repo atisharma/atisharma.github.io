@@ -26,12 +26,12 @@ $$
 
 The formula is unchanged by estimation uncertainty. What changes is the expected growth rate, which depends on whether we condition on the observed data or average over possible datasets.
 
-## Derivation
+## The derivation
 
 With leverage $l$, log-wealth evolves as
 
 $$
-d(\log W) = \left(l \cdot m - \frac{1}{2} l^2 \sigma^2\right) dt + l\sigma\, dW.
+d(\log w) = \left(l \cdot m - \frac{1}{2} l^2 \sigma^2\right) dt + l\sigma\, dW.
 $$
 
 The growth rate is a quadratic function of $l$,

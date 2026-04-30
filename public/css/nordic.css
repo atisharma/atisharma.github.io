@@ -374,6 +374,11 @@ em {
   margin: 0;
 }
 
+/* KaTeX math — higher specificity to override KaTeX's own 1.21em */
+body .katex {
+  font-size: 1em;
+}
+
 /* Responsive adjustments */
 @media (max-width: 30em) {
   body {
@@ -389,7 +394,3 @@ em {
   }
 }
 
-/* KaTeX math - match surrounding text size */
-.katex {
-  font-size: 1em;
-}
