@@ -344,6 +344,7 @@ img {
   color: var(--dim);
   font-size: 0.9em;
   font-style: italic;
+  cursor: pointer;
 }
 
 .reveal:hover {
@@ -353,6 +354,7 @@ img {
 .abstract {
   padding-left: 1em;
   border-left: 2px dotted var(--dim);
+  cursor: pointer;
 }
 
 /* --------------------------------- footer --------------------------------- */

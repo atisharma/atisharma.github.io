@@ -1,7 +1,6 @@
 # Setup
 title:               Ati Sharma
-tagline:             Less is more
-description:         Notes on various topics
+description:         CV and publications
 url:                 https://atisharma.info
 baseurl:             ''
 permalink:           /:categories/:title/
@@ -21,6 +20,3 @@ author:
 plugins:
   - jekyll-redirect-from
 
-# Custom vars
-version:             0.0.1
-google_analytics_id: #UA-XXXX-Y
