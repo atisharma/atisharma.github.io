@@ -18,7 +18,8 @@ author:
   email:             ati@agalmic.ltd
 
 # Gems
-#plugins:
+plugins:
+  - jekyll-redirect-from
 
 # Custom vars
 version:             0.0.1

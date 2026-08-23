@@ -3,20 +3,10 @@ layout: default
 title: Index
 ---
 
-<div id="posts">
-  {% for category in site.categories %}
-  <div class="related-posts">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <h2 class="category-head">{{ category_name }}</h2>
-    <ul class="posts-list">
-      {% for post in site.categories[category_name] %}
-        <li>
-          <h3>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </h3>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endfor %}
-</div>
+<p>I am a researcher in fluid dynamics and control, and a private investor.
+This site carries my <a href="{{ '/cv' | relative_url }}">CV</a> and
+<a href="{{ '/publications' | relative_url }}">publications</a>.</p>
+
+<p>The blog that used to live here has moved: informal writing, notes and
+musings are now at <a href="https://ati.sdf.org">ati.sdf.org</a>.
+Old links redirect automatically.</p>
