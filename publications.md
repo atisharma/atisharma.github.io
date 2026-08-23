@@ -994,6 +994,23 @@ model of the plasma equilibrium response.
 
 ## Papers under review or on arXiv.org
 
+### Objective and subjective entropy measures of portfolio suboptimality
+
+AS Sharma
+
+[arxiv.org](https://arxiv.org/abs/2607.09505)
+
+<div class="reveal">abstract...</div>
+<div class="abstract" style="display: none;">
+The cost of holding a suboptimal portfolio instead of the Kelly-optimal
+one admits two exact relative-entropy representations. Under the true
+measure, the expected log-wealth shortfall equals the KL divergence from
+the true measure to the measure under which the suboptimal portfolio
+would be optimal. Under that measure, the suboptimal portfolio appears
+to outperform the Kelly portfolio, and the apparent outperformance
+equals the reverse KL divergence.
+</div>
+
 ### Exact coherent states for grooved Couette flows
 
 S Vadarevu, AS Sharma, B Ganapathisubramani
