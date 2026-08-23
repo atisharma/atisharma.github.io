@@ -1,0 +1,401 @@
+/* Paper -- atisharma.info theme
+ * Aesthetic datapoint: chasm.run (_sass/_crt.scss). Warm paper, single ink,
+ * no accent colour; contrast comes from type, not hue.
+ * Typography: Playfair Display (headings), Minion Pro (body),
+ * Iosevka Nereus (code). All self-hosted.
+ */
+
+/* ---------------------------------- fonts --------------------------------- */
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/assets/fonts/PlayfairDisplay-Roman.ttf') format('truetype');
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/assets/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('/assets/fonts/MinionPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('/assets/fonts/MinionPro-It.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('/assets/fonts/MinionPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Nereus';
+  src: url('/assets/fonts/IosevkaNereus-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Nereus';
+  src: url('/assets/fonts/IosevkaNereus-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Nereus';
+  src: url('/assets/fonts/IosevkaNereus-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --------------------------------- palette -------------------------------- */
+
+:root {
+  --paper: #fafafa;
+  --ink: #151515;
+  --dim: #666;
+  --line: #999;
+}
+
+/* ----------------------------------- base --------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: 'Minion Pro', Georgia, 'Times New Roman', serif;
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+/* ---------------------------------- links --------------------------------- */
+/* chasm.run: links are the same ink as the text, italic, unadorned. */
+
+a {
+  color: var(--ink);
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* --------------------------------- headings ------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 1.75em 0 0.6em;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 1.05rem;
+}
+
+h5, h6 {
+  font-size: 1rem;
+}
+
+/* ----------------------------------- text --------------------------------- */
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.3em;
+  line-height: 1.45;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0.5em 2em;
+  border-left: 2px dotted var(--ink);
+  background-color: var(--paper);
+  font-family: 'Iosevka Nereus', 'Consolas', 'Monaco', monospace;
+  font-size: 1em;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  margin: 2em 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+dt {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* ----------------------------------- code --------------------------------- */
+
+code {
+  font-family: 'Iosevka Nereus', 'Consolas', 'Monaco', monospace;
+  font-size: 0.9em;
+  color: var(--ink);
+}
+
+pre {
+  font-family: 'Iosevka Nereus', 'Consolas', 'Monaco', monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  overflow-x: auto;
+  background-color: var(--paper);
+  border-radius: 2px;
+  color: var(--dim);
+}
+
+pre code {
+  color: var(--ink);
+}
+
+/* ---------------------------------- tables -------------------------------- */
+
+table {
+  width: 90%;
+  margin: 0 0 20px 0;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px dashed var(--dim);
+  padding: 5px 10px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+/* ---------------------------------- images -------------------------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+}
+
+/* ------------------------------- kramdown TOC ------------------------------ */
+
+#markdown-toc {
+  font-style: italic;
+  font-size: 0.95em;
+  border-left: 2px dotted var(--dim);
+  padding: 0.25em 0 0.25em 1em;
+}
+
+#markdown-toc > li {
+  margin-bottom: 0.15em;
+}
+
+/* -------------------------------- container ------------------------------- */
+
+.container {
+  max-width: 66ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* -------------------------------- masthead -------------------------------- */
+
+.masthead {
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.masthead-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+.masthead-title a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* ------------------------------- navigation ------------------------------- */
+
+.nav {
+  margin-top: 0.5em;
+  margin-bottom: 2.5em;
+  text-align: right;
+}
+
+.nav-links {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.nav-links li:not(:last-child)::after {
+  content: " \00a0\00b7\00a0"; /* nbsp . nbsp */
+  color: var(--dim);
+  font-style: normal;
+}
+
+/* ------------------------------ page and post ------------------------------ */
+
+.page,
+.post {
+  margin-bottom: 3em;
+}
+
+.page-title,
+.post-title {
+  font-size: 1.75rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* ------------------------- publication abstracts --------------------------- */
+/* reveal/abstract pairs; behaviour wired in _layouts/default.html */
+
+.reveal {
+  color: var(--dim);
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.reveal:hover {
+  text-decoration: underline;
+}
+
+.abstract {
+  padding-left: 1em;
+  border-left: 2px dotted var(--dim);
+}
+
+/* --------------------------------- footer --------------------------------- */
+
+.site-footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--dim);
+}
+
+.site-footer a {
+  color: var(--dim);
+}
+
+/* ---------------------------------- KaTeX ---------------------------------- */
+/* higher specificity to override KaTeX's own 1.21em */
+
+body .katex {
+  font-size: 1em;
+}
+
+/* ------------------------------- responsive ------------------------------- */
+
+@media (max-width: 30em) {
+  body {
+    font-size: 17px;
+  }
+
+  .masthead {
+    margin-top: 1.5rem;
+  }
+
+  .nav {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+}
