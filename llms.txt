@@ -11,4 +11,4 @@
 
 ## Writing
 
-Informal notes and musings have moved to <https://ati.sdf.org>.
+Informal notes and musings have moved to <http://ati.sdf.org/index.html>.
