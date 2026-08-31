@@ -5,9 +5,9 @@
 
 ## Pages
 
-- [Curriculum Vitae](https://atisharma.info/cv.md)
-- [Publications](https://atisharma.info/publications.md): Complete list with abstracts and BibTeX
-- [Contact](https://atisharma.info/contact.md)
+- [Curriculum Vitae](https://atisharma.info/cv/)
+- [Publications](https://atisharma.info/publications/): Complete list with abstracts; single-file [BibTeX bibliography](https://atisharma.info/bibliography.bib)
+- [Contact](https://atisharma.info/contact/)
 
 ## Writing
 
