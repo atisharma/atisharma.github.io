@@ -1377,3 +1377,6 @@ nonlinear models.
 -   AS Sharma, BJ McKeon, JF Morrison, DJN Limebeer, Control of
     incompressible flows, American Physical Society, Division of Fluid
     Dynamics, Chicago, US (2005)
+
+The complete bibliography is also available as a single
+[BibTeX file]({{ '/bibliography.bib' | relative_url }}).
