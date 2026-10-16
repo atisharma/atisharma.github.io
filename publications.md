@@ -1078,35 +1078,6 @@ a strong connection with the frequencies of the periodic orbits at the
 same Mach numbers.
 </div>
 
-### Surface roughness restricts families of exact coherent structures in wall bounded flows
-
-SB Vadarevu, AS Sharma, B Ganapathisubramani
-
-[arxiv.org](https://arxiv.org/abs/1612.07723)
-
-<div class="reveal">abstract...</div>
-<div class="abstract" style="display: none;">
-Recent progress indicates that highly symmetric recurring solutions of
-the Navier-Stokes equations such as equilibria and periodic orbits
-provide a skeleton for turbulence dynamics in state-space. Many of these
-solutions have been found for smooth-walled plane Couette, channel, and
-pipe flows. Rough-walled flows are of great practical significance, yet
-no recurring solutions are known for these flows. We present a numerical
-homotopy method to continue solutions from smooth-walled flows to
-corresponding rough-walled flows, illustrated here for grooved Couette
-flow at a Reynolds number of 400. Loss of spanwise homogeneity reduces
-continuous families of solutions, identical up to translational shifts,
-in smooth Couette flow to multiple discrete families in grooved Couette
-flow. The discrete families are ones that can preserve the discrete
-symmetries of Couette flow. Continuation of these solutions suggests
-that the exact coherent structures of smooth-walled flows also dominate
-rough-walled flows. Reduction of continuous families to discrete
-families implies that turbulence statistics in grooved Couette flow, and
-rough-walled flows by extension, must retain the spatial variation of
-exact solutions. These results raise important questions concerning the
-role of symmetries in understanding rough-walled turbulence.
-</div>
-
 ### Adjoint-based optimal flow control for compressible DNS
 
 JJ Otero, AS Sharma, RD Sandberg
