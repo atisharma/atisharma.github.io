@@ -1165,6 +1165,10 @@ simulation and control of a ubiquitous class of wall flows.
 
 ## Recent seminars and invited talks
 
+### DAMTP, University of Cambridge, short course on modal methods in fluid mechanics, 2019
+
+[lecture notes](https://arxiv.org/abs/1909.04515)
+
 ### University of Leeds, Department of Applied Mathematics, 2019-05-02
 
 ### Monash University, School of Maths, 2019-03-12
