@@ -144,7 +144,7 @@ Lorenz system introduce a small, yet systematic, bias.
 ### Special issue on global flow instability and control **(editorial)**
 
 [Theoretical and Computational Fluid Dynamics (2017), Vol 31, issue 5-6](https://dx.doi.org/10.1007/s00162-017-0444-y)
-[preprint](../download/Sharma.Theofilis.Colonius-TCFD-2017.pdf)
+[preprint](../assets/papers/Sharma.Theofilis.Colonius-TCFD-2017.pdf)
 
 AS Sharma, V Theofilis, T Colonius
 
@@ -164,7 +164,7 @@ of the papers in this issue is given in that context.
 ### Scaling and interaction of self-similar modes in models of high-Reynolds number wall turbulence **(invited, cover image)**
 
 [Philosophical Transactions of the Royal Society A (2017), Volume 375, issue 2089](https://dx.doi.org/10.1098/rsta.2016.0089)
-[preprint](../download/PTRSA-scaling.pdf)
+[preprint](../assets/papers/PTRSA-scaling.pdf)
 
 AS Sharma, R Moarref, BJ McKeon
 
@@ -238,7 +238,7 @@ identify structures convecting with corresponding wavespeeds.
 ### A reduced-order model of three-dimensional unsteady flow in a cavity based on the resolvent operator **(Rapids)**
 
 [Journal of Fluid Mechanics (2016), vol 798, pp. R2-1 - R2-14](https://dx.doi.org/10.1017/jfm.2016.339)
-[preprint](../download/cavity_resolvent.pdf)
+[preprint](../assets/papers/cavity_resolvent.pdf)
 
 F Gómez, HM Blackburn, M Rudman, AS Sharma, BJ McKeon
 
@@ -257,7 +257,7 @@ time history of a single velocity probe.
 ### Streamwise-varying steady transpiration control in turbulent pipe flow
 
 [Journal of Fluid Mechanics (2016), vol. 796, pp. 588-616](https://dx.doi.org/10.1017/jfm.2016.279)
-[preprint](../download/steady_transpiration.pdf)
+[preprint](../assets/papers/steady_transpiration.pdf)
 
 F Gómez, HM Blackburn, M Rudman, AS Sharma, BJ McKeon
 
@@ -701,7 +701,7 @@ simulation literature.
 ### Experimental manipulation of wall turbulence: a systems approach **(invited)**
 
 [Physics of Fluids (2013), 25, 031301](https://pof.aip.org/resource/1/phfle6/v25/i3/p031301_s1)
-[](../download/McKeonSharmaJacobi_2013.pdf)preprint
+[](../assets/papers/McKeonSharmaJacobi_2013.pdf)preprint
 
 BJ McKeon, AS Sharma, I Jacobi
 
@@ -1150,7 +1150,7 @@ simulation and control of a ubiquitous class of wall flows.
 
 ### American Physical Society, Division of Fluid Dynamics (APS-DFD), invited tutorial in mini-symposium on \"Modal Analysis Methods for Fluid Flows\", 2017-11-20
 
-[PDF of slides](../download/APS-DFD-2017-resolvent_tutorial.pdf),
+[PDF of slides](../assets/papers/APS-DFD-2017-resolvent_tutorial.pdf),
 [programme and details](https://meetings.aps.org/Meeting/DFD17/Session/L27.5)
 
 ### U. Cambridge, Fluid Mechanics group, Engineering Department, 2017-02-03
@@ -1163,7 +1163,7 @@ simulation and control of a ubiquitous class of wall flows.
 
 ### U. New Hampshire Boundary Layer Workshop, 2015-11-20
 
-[PDF of slides](../download/UNH_BL_workshop-2015-slides.pdf), [programme and details](https://math.unh.edu/high-reynolds-boundary-layer-workshop)
+[PDF of slides](../assets/papers/UNH_BL_workshop-2015-slides.pdf), [programme and details](https://math.unh.edu/high-reynolds-boundary-layer-workshop)
 
 ### Imperial College, Applied Mathematics Fluid Mechanics seminar, 2015-01-16
 
@@ -1173,12 +1173,12 @@ simulation and control of a ubiquitous class of wall flows.
 
 ### U. New Hampshire Boundary Layer Workshop, 2013-11-21
 
-[PDF of slides](../download/UNH_BL_workshop-2013-slides.pdf),
+[PDF of slides](../assets/papers/UNH_BL_workshop-2013-slides.pdf),
 [programme and details](https://math.unh.edu/high-reynolds-boundary-layer-workshop)
 
 ### Imperial College, Turbulence Seminar, 2013-11-07
 
-[PDF of slides](../download/Imperial-2013-slides.pdf)
+[PDF of slides](../assets/papers/Imperial-2013-slides.pdf)
 
 
 ## Thesis
@@ -1186,7 +1186,7 @@ simulation and control of a ubiquitous class of wall flows.
 ### Tokamak modelling and control
 
 [Thesis, Imperial College London (University of London) (2002)](https://www.opengrey.eu/item/display/10068/697691)
-[PDF](../download/ASharma_thesis.pdf)
+[PDF](../assets/papers/ASharma_thesis.pdf)
 
 AS Sharma
 
